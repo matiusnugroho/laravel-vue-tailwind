@@ -1,4 +1,8 @@
+<script setup>
+import Dashboard from '@/layouts/Dashboard.vue';
+</script>
 <template>
+  <Dashboard>
   <div class="flex justify-center">
   <div class="w-full bg-white rounded-lg shadow-md p-4">
     <div class="flex flex-col items-center pb-4">
@@ -20,4 +24,6 @@
     </ul>
   </div>
 </div>
+</Dashboard>
 </template>
+
