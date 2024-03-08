@@ -4,10 +4,8 @@ import Dashboard from '@/layouts/Dashboard.vue'
 </script>
 
 <template>
-  <Dashboard>
   <main>
     <TheWelcome />
   </main>
-</Dashboard>
 
 </template>

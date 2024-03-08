@@ -1,14 +1,10 @@
-<script setup>
-import Dashboard from '@/layouts/Dashboard.vue';
-</script>
 <template>
-  <Dashboard>
   <div class="flex justify-center">
   <div class="w-full bg-white rounded-lg shadow-md p-4">
     <div class="flex flex-col items-center pb-4">
       <img class="w-24 h-24 rounded-full mx-auto" src="https://gravatar.com/avatar/8e1a9afced6b5c2a9204004ba6974bac?s=400&d=robohash&r=x" alt="Profile picture">
       <h5 class="text-xl font-medium mt-4">John Doe</h5>
-      <p class="text-gray-600 text-sm">Software Engineer</p>
+      <p class="text-gray-600 text-sm">About</p>
     </div>
     <ul class="flex justify-center space-x-4">
       <li>
@@ -24,6 +20,5 @@ import Dashboard from '@/layouts/Dashboard.vue';
     </ul>
   </div>
 </div>
-</Dashboard>
 </template>
 

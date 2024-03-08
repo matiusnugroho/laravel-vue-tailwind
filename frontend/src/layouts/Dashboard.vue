@@ -121,7 +121,7 @@ const navigate = (route) => {
   </div>
 </div>
 <div class="content">
-    <slot/>
+    <router-view/>
 </div>
 </template>
 <style>

@@ -7,7 +7,7 @@
           <router-link :to="{ name: 'register' }" :class="{ 'font-bold': $route.name === 'Register' }">Register</router-link>
         </div>
         <div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-          <slot />
+          <router-view/>
         </div>
       </div>
     </div>
